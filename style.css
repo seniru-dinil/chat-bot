@@ -97,11 +97,11 @@ body {
   height: 34px !important;
   width: 34px !important;
   border-radius: 50% !important;
-  transition: background-color 400ms ease-in;
+  transition: background-color 100ms ease-in-out;
 }
 
 .button:hover {
-  background-color: hsl(120, 100%, 40%, 0.9) !important;
+  background-color: hsl(120, 100%, 40%, 0.6) !important;
 }
 
 .select {

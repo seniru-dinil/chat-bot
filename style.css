@@ -97,7 +97,7 @@ body {
   height: 34px !important;
   width: 34px !important;
   border-radius: 50% !important;
-  transition: background-color 200ms ease-in;
+  transition: background-color 400ms ease-in;
 }
 
 .button:hover {

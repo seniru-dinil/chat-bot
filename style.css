@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif !important;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background-color: hsl(240, 100%, 4%) !important;
+}
+
+.container {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  height: 90%;
+  width: 90% !important;
+  position: relative;
+  padding: 2rem !important;
+}
+
+.wrapper {
+  width: 100%;
+  display: grid;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.msg-bg {
+  position: relative;
+  margin-bottom: 2.3rem;
+}
+
+.left,
+.right {
+  position: absolute;
+  background: hsl(0, 0%, 100%, 0.1);
+  color: white;
+  font-size: 1rem;
+  font-weight: 100;
+  padding: 0.3rem 1rem;
+  border-radius: 100vmax;
+}
+
+.input-field {
+  height: 100%;
+  margin-bottom: 0;
+}
+
+.my-input {
+  background: hsl(0, 0%, 100%, 0.1);
+  border: none;
+  border-radius: 100vmax;
+  font-size: 1rem;
+  padding: 0.3rem 1rem;
+  color: white;
+  outline: none;
+  min-width: 100px;
+}
+
+.myInp {
+  position: absolute !important;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  height: 20px;
+  width: 100%;
+}
+
+.button {
+  background-color: hsl(120, 100%, 40%, 0.3) !important;
+  border: none !important;
+  outline: none !important;
+  height: 34px !important;
+  width: 34px !important;
+  border-radius: 50% !important;
+}
+
+.select {
+  background: hsl(0, 0%, 100%, 0.1);
+  color: white;
+  opacity: 70%;
+  padding: 0.3rem 1rem;
+  border-radius: 7px;
+  border: none;
+}
